@@ -1,0 +1,9 @@
+.done {
+    text-decoration: line-through;
+    background-color: azure;
+}
+
+.wrapper{
+    padding: 1rem;
+    border: 2px solid black;
+}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from './StateTodo.module.css'
 
 export default function StateTodo() {
 
@@ -57,7 +58,7 @@ export default function StateTodo() {
     };
 
     return (
-        <div>
+        <div className={styles.wrapper}>
             <label>
                 やること：
                 <input type="text" name="title"
